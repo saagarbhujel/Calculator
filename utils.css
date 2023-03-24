@@ -1,0 +1,17 @@
+.m-auto{
+    margin: auto;
+}
+
+.mx-w{
+    max-width: 15vw;
+}
+
+.m-top{
+    margin-top: 20px;
+}
+.m-btm{
+    margin-bottom: 10px;
+}
+.bg-red{
+    background-color: red;
+}

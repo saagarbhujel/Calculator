@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.calculator{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.screen{
+    width: 15vw;
+    height: 25vh;
+    background-color: black;
+    color: white;
+    font-size: 65px;
+    text-align: right;
+
+}
+
+.btn{
+    padding: 10px 24px 20px 22px;
+    
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 2rem;
+}
