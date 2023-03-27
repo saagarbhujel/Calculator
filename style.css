@@ -12,26 +12,33 @@ body{
 .calculator{
     /* display: flex;
     flex-direction: column; */
+    box-shadow: 4px 4px 30px rgb(0, 0, 0,0.3);
 }
 
 .screen{
-    width: 15vw;
+    width: 20vw;
     height: 25vh;
     background-color: black;
     color: white;
-    font-size: 65px;
+    font-size: 3rem;
     text-align: right;
 
 }
 
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
 .btn{
-    padding: 10px 24px 20px 22px;
-    
-    text-align: center;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 50%;
-    border: 2px solid black;
-    font-size: 2rem;
+   width: 100%;
+   margin: 5px;   
+    padding: -1px 15px;
+       font-size: 2.5rem;
+           border: none;
+    border-radius: 20%;
+        box-shadow: 4px 6px 7px rgb(0, 0, 0,0.3);
+
+ 
+   
 }
