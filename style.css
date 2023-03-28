@@ -13,6 +13,7 @@ body{
     /* display: flex;
     flex-direction: column; */
     box-shadow: 4px 4px 30px rgb(0, 0, 0,0.3);
+    margin-top: 10vh;
 }
 
 .screen{
@@ -22,6 +23,7 @@ body{
     color: white;
     font-size: 3rem;
     text-align: right;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -36,9 +38,23 @@ body{
     padding: -1px 15px;
        font-size: 2.5rem;
            border: none;
-    border-radius: 20%;
+    border-radius: 10%;
         box-shadow: 4px 6px 7px rgb(0, 0, 0,0.3);
-
+        transition: background-color 0.7s ease-in-out;
  
    
 }
+
+
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #ccc;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29vh
+  }
